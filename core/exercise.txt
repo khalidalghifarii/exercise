@@ -1,0 +1,260 @@
+╰─ tree -I 'demo|dist|node_modules'                                                                                                                                     ─╯
+.
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── core
+│   ├── README.md
+│   ├── bicep_model
+│   │   ├── 1.data.ipynb
+│   │   ├── 1.data.py
+│   │   ├── 2.sklearn.ipynb
+│   │   ├── 2.sklearn.py
+│   │   ├── 3.deep_learning.ipynb
+│   │   ├── 3.deep_learning.py
+│   │   ├── 4.evaluation.ipynb
+│   │   ├── 4.evaluation.py
+│   │   ├── 5.detection.ipynb
+│   │   ├── 5.detection.py
+│   │   ├── README.md
+│   │   ├── evaluation.csv
+│   │   ├── model
+│   │   │   ├── KNN_model.pkl
+│   │   │   ├── RF_model.pkl
+│   │   │   ├── all_dp.pkl
+│   │   │   ├── all_sklearn.pkl
+│   │   │   ├── bicep_dp.pkl
+│   │   │   └── input_scaler.pkl
+│   │   ├── test.csv
+│   │   └── train.csv
+│   ├── lunge_model
+│   │   ├── 1.stage.data.ipynb
+│   │   ├── 1.stage.data.py
+│   │   ├── 2.stage.sklearn.ipynb
+│   │   ├── 2.stage.sklearn.py
+│   │   ├── 3.stage.deep_learning.ipynb
+│   │   ├── 3.stage.deep_learning.py
+│   │   ├── 4.stage.detection.ipynb
+│   │   ├── 4.stage.detection.py
+│   │   ├── 5.err.data.ipynb
+│   │   ├── 5.err.data.py
+│   │   ├── 6.err.sklearn.ipynb
+│   │   ├── 6.err.sklearn.py
+│   │   ├── 7.err.deep_learning.ipynb
+│   │   ├── 7.err.deep_learning.py
+│   │   ├── 8.err.evaluation.ipynb
+│   │   ├── 8.err.evaluation.py
+│   │   ├── 9.err.detection.ipynb
+│   │   ├── 9.err.detection.py
+│   │   ├── README.md
+│   │   ├── err.evaluation.csv
+│   │   ├── err.test.csv
+│   │   ├── err.train.csv
+│   │   ├── knee_angle.csv
+│   │   ├── knee_angle_2.csv
+│   │   ├── model
+│   │   │   ├── dp
+│   │   │   │   ├── all_models.pkl
+│   │   │   │   ├── err_lunge_dp.pkl
+│   │   │   │   └── stage_lunge_dp.pkl
+│   │   │   ├── input_scaler.pkl
+│   │   │   └── sklearn
+│   │   │       ├── err_LR_model.pkl
+│   │   │       ├── err_SGDC_model.pkl
+│   │   │       ├── err_all_sklearn.pkl
+│   │   │       ├── stage_LR_model.pkl
+│   │   │       ├── stage_Ridge_model.pkl
+│   │   │       └── stage_SVC_model.pkl
+│   │   ├── stage.test.csv
+│   │   └── stage.train.csv
+│   ├── plank_model
+│   │   ├── 1.data.ipynb
+│   │   ├── 1.data.py
+│   │   ├── 2.sklearn.ipynb
+│   │   ├── 2.sklearn.py
+│   │   ├── 3.deep_learning.ipynb
+│   │   ├── 3.deep_learning.py
+│   │   ├── 4.evaluation.ipynb
+│   │   ├── 4.evaluation.py
+│   │   ├── 5.detection.ipynb
+│   │   ├── 5.detection.py
+│   │   ├── README.md
+│   │   ├── evaluation.csv
+│   │   ├── kaggle.csv
+│   │   ├── model
+│   │   │   ├── LR_model.pkl
+│   │   │   ├── SVC_model.pkl
+│   │   │   ├── all_dp.pkl
+│   │   │   ├── all_sklearn.pkl
+│   │   │   ├── input_scaler.pkl
+│   │   │   └── plank_dp.pkl
+│   │   ├── test.csv
+│   │   └── train.csv
+│   └── squat_model
+│       ├── 1.counter_model.ipynb
+│       ├── 1.counter_model.py
+│       ├── 2.analyze_bad_pose.ipynb
+│       ├── 2.analyze_bad_pose.py
+│       ├── 3.detection.ipynb
+│       ├── 3.detection.py
+│       ├── README.md
+│       ├── analyze_pose.csv
+│       ├── evaluation.csv
+│       ├── model
+│       │   ├── LR_model.pkl
+│       │   ├── SGDC_model.pkl
+│       │   └── sklearn_models.pkl
+│       ├── test.csv
+│       └── train.csv
+├── exercise.txt
+├── package.json
+├── requirements-mac.txt
+├── requirements.txt
+└── web
+    ├── README.md
+    ├── client
+    │   ├── README.md
+    │   ├── index.html
+    │   ├── package-lock.json
+    │   ├── package.json
+    │   ├── public
+    │   │   └── favicon.ico
+    │   ├── src
+    │   │   ├── App.vue
+    │   │   ├── assets
+    │   │   │   ├── css
+    │   │   │   │   ├── default.css
+    │   │   │   │   └── reset.css
+    │   │   │   └── logo.svg
+    │   │   ├── components
+    │   │   │   ├── Dropzone.vue
+    │   │   │   ├── DropzoneLoading.vue
+    │   │   │   ├── Result.vue
+    │   │   │   ├── Video.vue
+    │   │   │   └── Webcam.vue
+    │   │   ├── main.js
+    │   │   ├── router
+    │   │   │   └── index.js
+    │   │   └── views
+    │   │       ├── Home.vue
+    │   │       └── VideoStreaming.vue
+    │   └── vite.config.js
+    ├── package.json
+    ├── requirements.txt
+    └── server
+        ├── api
+        │   ├── __init__.py
+        │   ├── __pycache__
+        │   │   ├── __init__.cpython-312.pyc
+        │   │   ├── admin.cpython-312.pyc
+        │   │   ├── apps.cpython-312.pyc
+        │   │   ├── urls.cpython-312.pyc
+        │   │   └── views.cpython-312.pyc
+        │   ├── admin.py
+        │   ├── apps.py
+        │   ├── migrations
+        │   │   └── __init__.py
+        │   ├── tests.py
+        │   ├── urls.py
+        │   └── views.py
+        ├── detection
+        │   ├── __init__.py
+        │   ├── __pycache__
+        │   │   ├── __init__.cpython-312.pyc
+        │   │   └── main.cpython-312.pyc
+        │   ├── bicep_curl.py
+        │   ├── lunge.py
+        │   ├── main.py
+        │   ├── plank.py
+        │   ├── squat.py
+        │   └── utils.py
+        ├── exercise_correction
+        │   ├── __init__.py
+        │   ├── __pycache__
+        │   │   ├── __init__.cpython-312.pyc
+        │   │   ├── settings.cpython-312.pyc
+        │   │   └── urls.cpython-312.pyc
+        │   ├── asgi.py
+        │   ├── settings.py
+        │   ├── urls.py
+        │   └── wsgi.py
+        ├── manage.py
+        ├── scripts
+        │   ├── __init__.py
+        │   └── static_remover.py
+        ├── static
+        │   ├── assets
+        │   │   └── js
+        │   │       ├── Home-9a191259.js
+        │   │       ├── VideoStreaming-399e84b4.js
+        │   │       └── index-1ccd2763.js
+        │   ├── css
+        │   │   ├── Home-94b0d679.css
+        │   │   ├── VideoStreaming-0ab5568d.css
+        │   │   └── index-c3504ec7.css
+        │   └── model
+        │       ├── bicep_curl_input_scaler.pkl
+        │       ├── bicep_curl_model.pkl
+        │       ├── lunge_err_model.pkl
+        │       ├── lunge_input_scaler.pkl
+        │       ├── lunge_stage_model.pkl
+        │       ├── plank_input_scaler.pkl
+        │       ├── plank_model.pkl
+        │       └── squat_model.pkl
+        ├── stream_video
+        │   ├── __init__.py
+        │   ├── __pycache__
+        │   │   ├── __init__.cpython-312.pyc
+        │   │   ├── admin.cpython-312.pyc
+        │   │   ├── apps.cpython-312.pyc
+        │   │   ├── models.cpython-312.pyc
+        │   │   ├── urls.cpython-312.pyc
+        │   │   └── views.cpython-312.pyc
+        │   ├── admin.py
+        │   ├── apps.py
+        │   ├── models.py
+        │   ├── tests.py
+        │   ├── urls.py
+        │   └── views.py
+        └── templates
+            └── index.html
+
+38 directories, 181 files.
+
+
+
+# physioLearn
+
+
+├── postcss.config.js
+├── src
+│   ├── App.tsx
+│   ├── components
+│   │   ├── Camera.tsx
+│   │   ├── ExerciseCard.tsx
+│   │   ├── ExerciseList.tsx
+│   │   ├── Header.tsx
+│   │   ├── Instructions.tsx
+│   │   ├── Layout.tsx
+│   │   ├── PoseAnalyzer.tsx
+│   │   └── PoseVisualization.tsx
+│   ├── data
+│   │   ├── exerciseStages.ts
+│   │   └── exercises.ts
+│   ├── hooks
+│   │   └── usePoseDetection.ts
+│   ├── index.css
+│   ├── main.tsx
+│   ├── types
+│   │   ├── exercise.ts
+│   │   └── pose.ts
+│   ├── utils
+│   │   └── poseAnalysis.ts
+│   └── vite-env.d.ts
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+7 directories, 28 files
